@@ -1,4 +1,4 @@
-const { SubCategory } = require("../models/subCategory");
+const { SubCategory } = require("../models/subcategory");
 const express = require("express");
 const router = express.Router();
 require("dotenv").config();
