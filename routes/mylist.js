@@ -1,5 +1,5 @@
 const express = require("express");
-const { MyList } = require("../models/myList"); // Assuming you have a MyList model
+const { MyList } = require("../models/mylist"); // Assuming you have a MyList model
 const { Product } = require("../models/product");
 const router = express.Router();
 require("dotenv").config();
