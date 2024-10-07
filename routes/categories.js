@@ -4,7 +4,7 @@ const router = express.Router();
 require("dotenv").config();
 const multer = require("multer");
 const fs = require("fs");
-const Notification = require('../models/Notification'); 
+const Notification = require('../models/notification'); 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "uploads");

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const {Review} = require('../models/Review'); // Adjust the path as needed
-const Notification = require('../models/Notification');
+const {Review} = require('../models/review'); // Adjust the path as needed
+const Notification = require('../models/notification');
 
 // Create a Review
 router.post('/add', async (req, res) => {

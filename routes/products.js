@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { Product } = require("../models/product");
 const { Category } = require("../models/category");
-const Notification = require('../models/Notification'); 
+const Notification = require('../models/notification'); 
 const multer = require("multer");
 require("dotenv").config();
 const fs = require("fs");

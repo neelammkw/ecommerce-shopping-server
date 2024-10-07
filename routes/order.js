@@ -5,7 +5,7 @@ require("dotenv").config();
 const crypto = require("crypto");
 const { Order } = require("../models/order"); // Import the Order model
 const router = express.Router();
-const Notification = require('../models/Notification');
+const Notification = require('../models/notification');
 
 const instance = new Razorpay({
   key_id: process.env.REACT_APP_RAZORPAY_KEY_ID,
