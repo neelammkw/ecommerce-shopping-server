@@ -74,9 +74,9 @@ router.post("/login", async (req, res) => {
       return res.status(400).json({ message: "Invalid email or password" });
     }
     
-    if (!user.isAdmin) {
-      return res.status(403).json({ message: "Access denied. Admins only." });
-    }
+    // if (user.isAdmin) {
+    //   return res.status(403).json({ message: "Access denied. Admins only." });
+    // }
 
 
 
